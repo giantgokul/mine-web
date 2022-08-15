@@ -153,7 +153,7 @@ header p {
 }
 
 .sidebar {
-  color:#b33247 ;
+  color:#21B053 ;
   font-size: 95%;
 }
 
@@ -234,6 +234,34 @@ header p {
   }
 }
 
+/*memos*/
+.memos a
+{
+  float:left;
+  width: 25%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.memos img
+{
+   transition:all 0.5s ease-in-out;
+}
+
+.memos:hover img
+{
+   opacity: 0.5;
+   transform: scale(.92);
+}
+
+.memos img:hover
+{
+  opacity: 1;
+   transform: scale(1) rotate(3deg);
+   box-shadow: 0 0 10px yellow;
+}
+
+
 /* End Bounce Animation */
 
 .box-a {
@@ -244,104 +272,104 @@ header p {
   padding:20px 20px 0 20px;
   border: 2px solid #d3dee7;
   margin-bottom: 30px;
-  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   text-align:center;
 }
 
 .boxes :nth-child(2) .box-a {
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
 }
 
 .boxes :nth-child(3) .box-a {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+.boxes :nth-child(4) .box-a {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+}
+
+.boxes :nth-child(5) .box-a {
   animation-delay: 1s;
   -webkit-animation-delay: 1s;
 }
 
-.boxes :nth-child(4) .box-a {
-  animation-delay: 1.5s;
-  -webkit-animation-delay: 1.5s;
+.boxes :nth-child(6) .box-a {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 
-.boxes :nth-child(5) .box-a {
+.boxes :nth-child(7) .box-a {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+.boxes :nth-child(8) .box-a {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+.boxes :nth-child(9) .box-a {
   animation-delay: 2s;
   -webkit-animation-delay: 2s;
 }
 
-.boxes :nth-child(6) .box-a {
-  animation-delay: 2.5s;
-  -webkit-animation-delay: 2.5s;
+.boxes :nth-child(10) .box-a {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
 
-.boxes :nth-child(7) .box-a {
+.boxes :nth-child(11) .box-a {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+.boxes :nth-child(12) .box-a {
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+}
+
+.boxes :nth-child(13) .box-a {
   animation-delay: 3s;
   -webkit-animation-delay: 3s;
 }
 
-.boxes :nth-child(8) .box-a {
-  animation-delay: 3.5s;
-  -webkit-animation-delay: 3.5s;
+.boxes :nth-child(14) .box-a {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
 }
 
-.boxes :nth-child(9) .box-a {
+.boxes :nth-child(15) .box-a {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+
+.boxes :nth-child(16) .box-a {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+
+.boxes :nth-child(17) .box-a {
   animation-delay: 4s;
   -webkit-animation-delay: 4s;
 }
 
-.boxes :nth-child(10) .box-a {
-  animation-delay: 4.5s;
-  -webkit-animation-delay: 4.5s;
-}
-
-.boxes :nth-child(11) .box-a {
-  animation-delay: 5s;
-  -webkit-animation-delay: 5s;
-}
-
-.boxes :nth-child(12) .box-a {
-  animation-delay: 5.5s;
-  -webkit-animation-delay: 5.5s;
-}
-
-.boxes :nth-child(13) .box-a {
-  animation-delay: 6s;
-  -webkit-animation-delay: 6s;
-}
-
-.boxes :nth-child(14) .box-a {
-  animation-delay: 6.5s;
-  -webkit-animation-delay: 6.5s;
-}
-
-.boxes :nth-child(15) .box-a {
-  animation-delay: 7s;
-  -webkit-animation-delay: 7s;
-}
-
-.boxes :nth-child(16) .box-a {
-  animation-delay: 7.5s;
-  -webkit-animation-delay: 7.5s;
-}
-
-.boxes :nth-child(17) .box-a {
-  animation-delay: 8s;
-  -webkit-animation-delay: 8s;
-}
-
 .boxes :nth-child(18) .box-a {
-  animation-delay: 8.5s;
-  -webkit-animation-delay: 8.5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 .boxes :nth-child(19) .box-a {
-  animation-delay: 9s;
-  -webkit-animation-delay: 9s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 .boxes :nth-child(20) .box-a {
-  animation-delay: 9.5s;
-  -webkit-animation-delay: 9.5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 
@@ -522,12 +550,18 @@ header p {
 footer {
   text-align: center;
   font-size: 100%;
-  background-color:black;
+  background-color:yellow;
   text-transform:uppercase;
-  color: #fff;
-  padding-bottom: 20px;
+  color: black;
+  padding-bottom: 10px;
   padding-top:25px;
   word-spacing:1.8;
+}
+
+footer i
+{
+ float:right;
+ padding-right:10px;
 }
 
 .row:before,
