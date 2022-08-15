@@ -549,7 +549,7 @@ header p {
 
 footer {
   text-align: center;
-  font-size: 100%;
+  font-size: 75%;
   background-color:yellow;
   text-transform:uppercase;
   color: black;
@@ -561,7 +561,7 @@ footer {
 footer i
 {
  float:right;
- padding-right:10px;
+ padding-right:30px;
 }
 
 .row:before,
