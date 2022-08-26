@@ -262,6 +262,31 @@ header p {
    box-shadow: 0 0 10px yellow;
 }
 
+/*table*/
+table th
+{
+  width:25%;
+  border: 4px solid rgba(7, 8, 8, 0.692);
+  text-align: center;
+  padding: 7px;
+  box-sizing: border-box;
+  color:rgb(192, 33, 54);
+  background-color:rgba(158, 136, 54, 0.884);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
+}
+table td
+ {
+  width:10%;
+  border: 4px solid black;
+  text-align: center;
+  padding:0px;
+  background-color:black;
+  color:lime;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+}       
+
 
 /* End Bounce Animation */
 
