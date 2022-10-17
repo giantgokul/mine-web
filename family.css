@@ -100,7 +100,7 @@ header p {
 .site-nav a {
   display: block;
   color: #fff;
-  padding: 10px 40px;
+  padding: 10px 30px;
   background-color:#2724E8 ;
   transition-property: color, background-color;
   transition-duration: 2s;
