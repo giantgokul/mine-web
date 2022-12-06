@@ -573,6 +573,16 @@ table td
   }
 }
 
+@media screen and (min-width: 1024px)
+{
+  .csk1
+  {
+    overflow:auto;
+    width:100%;
+    height:300px;
+  }
+}
+
 footer {
   text-align: center;
   font-size: 75%;
